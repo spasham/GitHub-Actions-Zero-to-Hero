@@ -12,7 +12,7 @@ jobs:
   deploy:
     runs-on: kubernetes
     steps:
-    - name: Checkout code
+    - name: Checout code
       uses: actions/checkout@v2
 
     - name: Create Docker Image
